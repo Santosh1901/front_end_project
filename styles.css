@@ -22,12 +22,12 @@ nav {
     min-height: 10vh;
 }
 
-.nav-links {
+.nav-link {
     display: flex;
     list-style: none;
 }
 
-.nav-links li {
+.nav-link li {
     padding-left: 10rem;
     font-size: 1.2rem;
 }
@@ -38,7 +38,7 @@ nav {
     font-size: 2rem;
 }
 
-.big-text {
+.sec-text {
     position: absolute;
     top: 30%;
     left: 50%;
@@ -75,12 +75,12 @@ nav {
     transform: translateY(100%);
 }
 
-.hide {
+.hidden {
     background: black;
     overflow: hidden;
 }
 
-.hide span {
+.hidden span {
     transform: translateY(100%);
     display: inline-block;
 }
